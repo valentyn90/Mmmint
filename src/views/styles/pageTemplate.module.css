@@ -1,0 +1,116 @@
+.stake {
+  width: 100%;
+}
+.stakeGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 5rem;
+}
+.stakeGrid > div {
+  width: 100%;
+  background-color: rgba(173, 82, 242, 0.15);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.stakeInfo {
+  font-size: 10px;
+  font-style: italic;
+  margin-top:10px;
+}
+.stakeGrid h1 {
+  font-size: 2rem;
+  color: var(--dark-purple);
+  font-weight: 600;
+}
+.stakeGrid h6 {
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+
+.maxInput {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10000px;
+  border: 1px solid var(--light-purple);
+  background-color: var(--white);
+  padding: 0.5rem;
+  margin: 0.25rem 0 2.5rem 0;
+}
+.maxFormGroup {
+  margin: 2.5rem 0 0 0;
+}
+.maxInput input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: var(--black);
+}
+.maxInput input::placeholder {
+  font-size: 1.5rem;
+  color: var(--dark);
+}
+.maxInput button {
+  border-radius: 1000px;
+  min-width: 10rem;
+}
+.charityBtnGrd {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  margin: 1.5rem 0 0 0;
+}
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  padding: 0.5rem;
+  width: 50%;
+  border: 1px solid var(--light-purple);
+  border-radius: 1000px;
+}
+.buttonGroup button:hover {
+  box-shadow: 0 0 0 transparent;
+}
+.buttonGroup button {
+  border-radius: 1000px;
+  min-width: 50%;
+}
+.stakeGraphBox {
+  width: 100%;
+  height: 25rem;
+  margin: 1rem 0;
+      padding: 0px 17px 0px 14px;
+}
+.stakeGraphBox h2 {
+  font-size: 2rem;
+  color: var(--dark-purple);
+  font-weight: 600;
+}
+.stakeGraphBox h3 {
+  font-size: 1.75rem;
+  color: var(--black);
+  font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+  .stakeGrid {
+    grid-template-columns: 1fr;
+    grid-gap: 2.5rem;
+  }
+  .maxInput {
+    width: 100%;
+  }
+  .buttonGroup {
+    width: 100%;
+  }
+}

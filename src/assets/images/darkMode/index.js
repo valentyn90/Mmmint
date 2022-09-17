@@ -1,0 +1,6 @@
+export const logo_dark = require('./logo_dark.png')
+export const modeIcon_dark = require('./modeIcon_dark.png')
+export const valueLocked_dark = require('./valueLocked_dark.png')
+export const generated_dark = require('./generated_dark.png')
+export const helpers_dark = require('./helpers_dark.png')
+export const charities_dark = require('./charities_dark.png')
