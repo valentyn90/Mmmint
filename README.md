@@ -1,4 +1,4 @@
-# React Client Template
+# React Client
 
 This  project implements a react client with a node.js/express server.
 
